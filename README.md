@@ -2,7 +2,7 @@
 C code to generate a specific number of integers from the Fibonacci Sequence. 
 
 //code begin//
-
+{
 #include <stdio.h>
 int GetInput (void) ;  //Function declarations//
 int Fibo(int MaxNum) ;  //Function declarations//
@@ -41,5 +41,5 @@ Fibo (int MaxNum)
     }
     return result;
 }
-
+}
 //code finish//
