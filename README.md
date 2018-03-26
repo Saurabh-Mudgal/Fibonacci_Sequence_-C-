@@ -5,11 +5,14 @@ _by Saurabh Mudgal_
 
 C code to generate a specific number of integers from the Fibonacci Sequence: 
 
-`//code begin//`
-`#include <stdio.h>
+```C
+//code begin//
+
+#include <stdio.h>
 int GetInput (void) ;  //Function declarations//
-int Fibo(int MaxNum) ;  //Function declarations// `
-`main()
+int Fibo(int MaxNum) ;  //Function declarations//
+
+main()
 {
     int Fib;                    //Variable indicating #th Fibonacci//
 
@@ -18,8 +21,9 @@ int Fibo(int MaxNum) ;  //Function declarations// `
     printf("Result for %dth number of fibonacci sequence = %d", Fib, Fibo(Fib));
 
     return 0;
-}`
-`int GetInput(void)
+}
+
+int GetInput(void)
 {
     int input;
     do{
@@ -29,8 +33,9 @@ int Fibo(int MaxNum) ;  //Function declarations// `
                 printf("Enter a number bigger than 2.");
     } while (input <=2);
     return input;
-}`
-`Fibo (int MaxNum)
+}
+
+Fibo (int MaxNum)
 {
     int a=1, b=1, result=0, Num;
     for(Num=3;Num<=MaxNum;Num++)
@@ -40,5 +45,7 @@ int Fibo(int MaxNum) ;  //Function declarations// `
         b=result;
     }
     return result;
-}`
-`//code finish//`
+}
+
+//code finish//
+```
