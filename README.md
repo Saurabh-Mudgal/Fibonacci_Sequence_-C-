@@ -32,6 +32,7 @@ int GetInput(void)
             if (input <=2)
                 printf("Enter a number bigger than 2.");
     } while (input <=2);
+    
     return input;
 }
 
@@ -44,6 +45,7 @@ Fibo (int MaxNum)
         a=b;
         b=result;
     }
+    
     return result;
 }
 
