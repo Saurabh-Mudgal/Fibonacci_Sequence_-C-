@@ -1,15 +1,12 @@
-# Fibonacci_Sequence_-C-\
+# Fibonacci_Sequence_-C-
 _by Saurabh Mudgal_
+
  ___Disclaimer:__ The following code is for reference and inspiration of readers. The owner is not liable for any consequences resulting from a copy of this code reproduced in any way or form._
 
 C code to generate a specific number of integers from the Fibonacci Sequence: 
 
-`
-
-
-//code begin//
-{
-#include <stdio.h>
+`//code begin//`
+`#include <stdio.h>
 int GetInput (void) ;  //Function declarations//
 int Fibo(int MaxNum) ;  //Function declarations//
 
