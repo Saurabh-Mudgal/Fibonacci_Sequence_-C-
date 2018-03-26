@@ -1,5 +1,6 @@
 # Fibonacci_Sequence_-C-\
-## _Disclaimer: The following code is for reference and inspiration of readers. The owner is not liable for any consequences resulting from a copy of this code reproduced in any way or form._
+_by Saurabh Mudgal_
+ ___Disclaimer:__ The following code is for reference and inspiration of readers. The owner is not liable for any consequences resulting from a copy of this code reproduced in any way or form._
 
 C code to generate a specific number of integers from the Fibonacci Sequence: 
 
